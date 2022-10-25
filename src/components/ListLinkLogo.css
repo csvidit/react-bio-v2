@@ -1,0 +1,19 @@
+.lit-blog-logo-svg {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+}
+
+.lit-blog-logo-svg-rect {
+    fill: white;
+    fill-rule: nonzero;
+}
+
+.lit-blog-logo-svg-circle {
+    fill: rgb(228, 32, 35);
+}
+
+.lit-blog-logo-svg-path {
+    fill:white;fill-rule:nonzero;
+}

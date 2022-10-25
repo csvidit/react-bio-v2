@@ -1,0 +1,10 @@
+.education-icon-svg {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+}
+
+.education-icon-svg-path{
+    fill:white;fill-rule:nonzero;
+}
