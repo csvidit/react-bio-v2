@@ -1,14 +1,9 @@
-# Create React App
+# react-bio-v2
+My link-in-bio website made in React. It currently does not use the full capabilities of React, but as I learn more things, I will update it so that it is less static and more reactive (see what I did there).
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+The frontend of the website uses tailwindcss to its maximum, hence there is very little use of custom css. 
 
-## Deploy Your Own
-
-Deploy your own Create React App project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
-
-_Live Example: https://create-react-template.vercel.app/_
+Hosted on [https://bio.viditkhandewal.com](bio.viditkhandelwal.com) [https://react-bio-v2.viditkhandelwal.com](react-bio-v2.viditkhandelwal.com)
 
 ## Available Scripts
 

@@ -14,7 +14,7 @@ const ProfileContainer = () => {
                 <div><img className="inline-block h-20 w-20 rounded-full ring-2 ring-slate-900" src={require("./assets/display-picture.webp")} alt="Vidit Khandelwal" /></div>
             </div>
             <ProfileName name="Vidit Khandelwal"></ProfileName>
-            <ProfilePronouns pronouns="He/Him"></ProfilePronouns>
+            <ProfilePronouns pronouns="he/him"></ProfilePronouns>
             <ProfileSubtitle content="Software Engineer 💻"></ProfileSubtitle>
             <EducationBio></EducationBio>
             <WorkBio companyName="Pixus, Inc." position="Software Development Intern"></WorkBio>
