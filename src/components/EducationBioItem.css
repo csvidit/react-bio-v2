@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .ed-img{
     max-width: 16px;
+    
 }
