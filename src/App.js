@@ -5,6 +5,7 @@ import React from "react";
 import CoverImage from "./components/CoverImage";
 import Spotlight from "./components/Spotlight";
 import Footer from "./components/Footer";
+import { getDatabase } from "firebase/database";
 
 // function App() {
 //   return (
@@ -25,7 +26,7 @@ class App extends React.Component {
           <ProfileContainer></ProfileContainer>
           <Spotlight></Spotlight>
           <ListLinkItem linkType="ghR" link="https://github.com/csvidit/react-bio-v2" linkText="react-bio-v2"></ListLinkItem>
-          <ListLinkItem linkType="ghR" link="https://github.com/csvidit/nextjs-main-landing" linkText="nextjs-main-landing"></ListLinkItem>
+          <ListLinkItem linkType="ghR" link="https://github.com/csvidit/nextjs-main-landing" linkText="nextjs-main-landing">l</ListLinkItem>
           <ListLinkItem linkType="ghR" link="https://github.com/csvidit/bio-v2" linkText="bio-v2"></ListLinkItem>
           <ListLinkItem linkType="litP" link="https://github.com/csvidit" linkText="MMXXII"></ListLinkItem>
           <Footer></Footer>
