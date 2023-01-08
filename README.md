@@ -3,7 +3,9 @@ My link-in-bio website made in React. It currently does not use the full capabil
 
 The frontend of the website uses tailwindcss to its maximum, hence there is very little use of custom css. 
 
-Hosted on [https://bio.viditkhandewal.com](bio.viditkhandelwal.com) [https://react-bio-v2.viditkhandelwal.com](react-bio-v2.viditkhandelwal.com)
+Hosted on [https://bio.viditkhandewal.com](bio.viditkhandelwal.com) [https://react-bio-v2.viditkhandelwal.com](react-bio-v2.viditkhandelwal.com) using Vercel.
+
+&copy; 2023 Vidit Khandelwal. Derivative work should credit the original work. 
 
 ## Available Scripts
 
