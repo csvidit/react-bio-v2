@@ -1,13 +1,13 @@
 import ListLinkItem from "./ListLinkItem";
 import React, { useEffect, useState } from "react";
-import { request } from "graphql-request";
+import { gql, request } from "graphql-request";
 
 const ListLinkItems = () => {
   // const [listLinkItems, setListLinkItems] = useState(null);
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    const query = `{
+    const query = gql`{
       listLinkItems {
         link
         linkText

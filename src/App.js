@@ -1,4 +1,3 @@
-import ListLinkItem from "./components/ListLinkItem";
 import ListLinkItems from "./components/ListLinkItems";
 import ProfileContainer from "./components/ProfileContainer";
 import "./App.css";
@@ -6,9 +5,6 @@ import React from "react";
 import CoverImage from "./components/CoverImage";
 import Spotlight from "./components/Spotlight";
 import Footer from "./components/Footer";
-import { getDatabase, ref, onValue, getData } from "firebase/database";
-import { Suspense, useEffect, useState } from "react";
-import { db } from "./firebase";
 
 class App extends React.Component {
   render() {
