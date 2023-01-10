@@ -1,6 +1,8 @@
 # react-bio-v2
 My link-in-bio website made in React. It currently does not use the full capabilities of React, but as I learn more things, I will update it so that it is less static and more reactive (see what I did there).
 
+As of Jan 2023, it fetches links in the main link tree from Hygraph using GraphQL. 
+
 The frontend of the website uses tailwindcss to its maximum, hence there is very little use of custom css. 
 
 Hosted on [https://bio.viditkhandewal.com](bio.viditkhandelwal.com) [https://react-bio-v2.viditkhandelwal.com](react-bio-v2.viditkhandelwal.com) using Vercel.

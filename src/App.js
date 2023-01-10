@@ -27,28 +27,6 @@ class App extends React.Component {
             <CoverImage></CoverImage>
             <ProfileContainer></ProfileContainer>
             <Spotlight></Spotlight>
-            {/* <ListLinkItem
-              linkType="ghR"
-              link="https://github.com/csvidit/react-bio-v2"
-              linkText="react-bio-v2"
-            ></ListLinkItem>
-            <ListLinkItem
-              linkType="ghR"
-              link="https://github.com/csvidit/nextjs-main-landing"
-              linkText="nextjs-main-landing"
-            >
-              l
-            </ListLinkItem>
-            <ListLinkItem
-              linkType="ghR"
-              link="https://github.com/csvidit/bio-v2"
-              linkText="bio-v2"
-            ></ListLinkItem>
-            <ListLinkItem
-              linkType="litP"
-              link="https://github.com/csvidit"
-              linkText="MMXXII"
-            ></ListLinkItem> */}
             <ListLinkItems></ListLinkItems>
             <Footer></Footer>
           </div>
