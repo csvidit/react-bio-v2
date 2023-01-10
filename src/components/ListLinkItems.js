@@ -1,20 +1,23 @@
 import ListLinkItem from "./ListLinkItem";
 import React, { useEffect, useState } from "react";
 import { gql, request } from "graphql-request";
+import ListLinkItemsContainer from "./ListLinkItemsContainer";
 
 const ListLinkItems = () => {
   // const [listLinkItems, setListLinkItems] = useState(null);
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    const query = gql`{
-      listLinkItems {
-        link
-        linkText
-        linkType
-        id
+    const query = gql`
+      {
+        listLinkItems {
+          link
+          linkText
+          linkType
+          id
+        }
       }
-    }`;
+    `;
 
     request(process.env.REACT_APP_HYGRAPH_ENDPOINT, query)
       .then((data) => setData(data))
@@ -26,7 +29,7 @@ const ListLinkItems = () => {
   }
 
   return (
-    <div className="w-full">
+    <ListLinkItemsContainer>
       {data.listLinkItems.map((item) => (
         <ListLinkItem
           key={item.id}
@@ -35,7 +38,7 @@ const ListLinkItems = () => {
           link={item.link}
         ></ListLinkItem>
       ))}
-    </div>
+    </ListLinkItemsContainer>
   );
 };
 export default ListLinkItems;

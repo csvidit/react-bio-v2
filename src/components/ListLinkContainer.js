@@ -1,4 +1,0 @@
-const ListLinkContainer = (props) =>
-{
-    return;
-}

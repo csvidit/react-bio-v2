@@ -5,17 +5,14 @@ import React from "react";
 import CoverImage from "./components/CoverImage";
 import Spotlight from "./components/Spotlight";
 import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./Login";
+import Admin from "./Admin";
+import LoginButton from "./components/LoginButton";
+import Profile from "./components/Profile";
 
 class App extends React.Component {
   render() {
-    // const db = getDatabase();
-    // const data = ref(getDatabase, "vk-bio-default-rtdb");
-    // onValue(data, (snapshot) => {
-    //   console.log([snapshot.val()]);
-    // });
-    // useEffect(() => {
-    //   getData();
-    // });
     return (
       <React.StrictMode>
         <div className="App bg-fixed">
@@ -24,7 +21,10 @@ class App extends React.Component {
             <ProfileContainer></ProfileContainer>
             <Spotlight></Spotlight>
             <ListLinkItems></ListLinkItems>
-            <Footer></Footer>
+            <Footer>
+              <LoginButton />
+              <Profile />
+            </Footer>
           </div>
         </div>
       </React.StrictMode>
