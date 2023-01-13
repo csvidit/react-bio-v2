@@ -20,7 +20,7 @@ const ListLinkItems = () => {
       }
     `;
 
-    request(process.env.REACT_APP_HYGRAPH_READ_ENDPOINT, query)
+    request(process.env.REACT_APP_HYGRAPH_ENDPOINT, query)
       .then((data) => setData(data))
       .catch((error) => console.error(error));
   }, []);
