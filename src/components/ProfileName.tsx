@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProfileName = (props) => {
+const ProfileName = (props: { name: string }) => {
 
     return (
     <div id="name" className="flex flex-row justify-center text-white space-x-2">

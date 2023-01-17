@@ -1,6 +1,6 @@
 import React from "react";
 
-const ListLinkType = (props) => {
+const ListLinkType = (props: { type: string; }) => {
     
     if(props.type === "ghR")
     {

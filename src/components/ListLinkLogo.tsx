@@ -3,7 +3,7 @@ import LitIcon from "./LitIcon";
 import React from "react";
 import { BsFile } from "react-icons/bs";
 
-const ListLinkLogo = (props) => {
+const ListLinkLogo = (props: { type: string; }) => {
 
     const type = props.type;
 

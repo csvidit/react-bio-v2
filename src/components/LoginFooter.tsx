@@ -1,7 +1,7 @@
 import "./Font.css";
 import React from "react";
 
-const LoginFooter = (props) => {
+const LoginFooter = (props: any) => {
   return (
     <div className="flex w-full flex-col justify-between lg:flex-row">
       <div className="self-center flex flex-col space-y-1 text-slate-500">

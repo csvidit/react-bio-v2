@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProfileLinksContainer = (props) => 
+const ProfileLinksContainer = () => 
 {
     return (<div id="socials" className="flex flex-row justify-center space-x-3">
     <a href="https://v-k.pw/iIFifg" className="flex flex-row justify-center" alt="linkedin">

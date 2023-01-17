@@ -1,6 +1,6 @@
 import React from "react";
 
-const Location = (props) => {
+const Location = (props: { location: string }) => {
     return (<div id="location-container" className="mt-4 mb-4 flex flex-row self-center justify-center justify-around">
         <div id="location" className="flex flex-row justify-center self-center align-center align-self-center text-white space-x-1 rounded-md ">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-green-400 self-center bi bi-geo" viewBox="0 0 16 16">

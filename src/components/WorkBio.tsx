@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkBio = (props) => 
+const WorkBio = (props: { companyName: string, position: string }) => 
 {
     return (<div id="work" className="flex flex-row justify-between ml-5 mr-5 mt-2 mb-2 border-2 rounded border-slate-600 p-3">
     <div id="work-text" className="self-center flex flex-col">
