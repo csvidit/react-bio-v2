@@ -1,4 +1,4 @@
-import ListLinkItems from "./components/ListLinkItems";
+import ListLinkItems from "./components/ListLinkItems.tsx";
 import ProfileContainer from "./components/ProfileContainer";
 import "./App.css";
 import React from "react";
@@ -22,7 +22,7 @@ class App extends React.Component {
             <Spotlight></Spotlight>
             <ListLinkItems></ListLinkItems>
             <Footer>
-              <LoginButton />
+              {/* <LoginButton /> */}
               <Profile />
             </Footer>
           </div>
