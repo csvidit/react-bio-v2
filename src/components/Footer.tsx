@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = (props) => {
   return (
-    <div className="">
+    <div className="mt-5">
       <p className="text-center text-white">
         © 2023 Vidit Khandelwal. All rights reserved.
       </p>

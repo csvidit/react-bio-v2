@@ -11,6 +11,8 @@ import Admin from "./Admin";
 import LoginButton from "./components/LoginButton";
 import Profile from "./components/Profile";
 import { BsArrowUpRight } from "react-icons/bs";
+import LoginFooter from "./components/LoginFooter";
+import Footer2 from "./components/Footer2"
 
 class App extends React.Component {
   render() {
@@ -35,10 +37,10 @@ class App extends React.Component {
               </p>
             </Spotlight>
             <ListLinkItems></ListLinkItems>
-            <Footer>
-              {/* <LoginButton /> */}
+            {/* <Footer>
               <Profile />
-            </Footer>
+            </Footer> */}
+            <Footer2/>
           </div>
         </div>
       </React.StrictMode>
