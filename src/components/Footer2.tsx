@@ -1,5 +1,6 @@
 import "./Font.css";
 import React from "react";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const Footer2 = (props: any) => {
   return (
@@ -17,14 +18,15 @@ const Footer2 = (props: any) => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col self-center text-sm text-slate-500">
+      <div className="flex flex-row space-x-1 items-center self-center text-sm text-slate-500">
         <a
           href="https://github.com/csvidit/react-bio-v2"
-          className="hover:text-white"
+          className="hover:text-white flex flex-row space-x-1 items-center"
           target="_blank"
           rel="noreferrer"
         >
-          Project GitHub Repository
+          <p>Project GitHub Repository</p>
+          <BsArrowUpRight/>
         </a>
       </div>
     </div>
