@@ -15,10 +15,10 @@ const ListLinkLogo = (props: { type: string; }) => {
     }
     else if (type === "csp-f" || type === "csp-ud")
     {
-        return(<BsCodeSquare/>)
+        return(<BsCodeSquare className="self-center text-white text-md"></BsCodeSquare>)
     }
     else{
-        return(<BsFile/>)
+        return(<BsFile className="self-center text-white text-md"></BsFile>)
     }
 }
 
