@@ -18,6 +18,14 @@ const ListLinkType = (props: { type: string; }) => {
     {
         return (<p className="font-mono text-red-500 text-sm font-medium self-center ">Academic Paper</p>);
     }
+    else if(props.type === "csp-f")
+    {
+        return (<p className="font-mono text-lime-500 text-sm font-medium self-center ">Closed Source Project &#149; Finished</p>);
+    }
+    else if(props.type === "csp-ud")
+    {
+        return (<p className="font-mono text-amber-500 text-sm font-medium self-center ">Closed Source Project &#149; Under Development</p>);
+    }
     else
     {
         return (<p className="font-mono text-white text-sm font-medium self-center ">Document</p>);

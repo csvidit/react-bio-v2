@@ -11,7 +11,7 @@ const Admin = () => {
 
   return (
     isAuthenticated &&
-    <div className="text-6xl text-xl text-white" id="admin">
+    <div className="text-xl text-white" id="admin">
       <p>ADMIN</p>
       <LogoutButton></LogoutButton>
     </div>
