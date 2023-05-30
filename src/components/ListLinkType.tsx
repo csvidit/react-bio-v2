@@ -26,6 +26,10 @@ const ListLinkType = (props: { type: string; }) => {
     {
         return (<p className="text-amber-500 text-sm font-medium self-center ">Closed Source Project • Under Development</p>);
     }
+    else if(props.type === "nv")
+    {
+        return (<p className="text-violet-500 text-sm font-medium self-center ">New Business Venture</p>);
+    }
     else
     {
         return (<p className="font-mono text-white text-sm font-medium self-center ">Document</p>);
