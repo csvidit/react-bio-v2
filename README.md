@@ -1,3 +1,5 @@
+**DEPRECATED** Now replaced by a new bio. Repository of the new bio is currenlty private.
+
 # react-bio-v2
 My link-in-bio website made in React. It currently does not use the full capabilities of React, but as I learn more things, I will update it so that it is less static and more reactive (see what I did there).
 
